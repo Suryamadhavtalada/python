@@ -1,0 +1,13 @@
+#reverse of given number.
+num = int (input("Enter the number:"))
+org = num
+rev = 0
+while num > 0:
+    rem = num % 10
+    rev = rev * 10 + rem
+    num = num // 10
+print ("The reverse of ", org, "is ", rev)
+if rev == org:
+    print ("The number ", org, "is Palindrome")
+else:
+    print ("The number ", org, "is not a Palindrome")
