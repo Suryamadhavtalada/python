@@ -1,4 +1,4 @@
-#reverse of given number.
+#palindrome or not of given number.
 num = int (input("Enter the number:"))
 org = num
 rev = 0
