@@ -1,0 +1,8 @@
+#reverse of the number
+given_num = 12345
+reverse_string = ""
+strnum = str(given_num)
+length = len(strnum)
+for index in range(length-1, -1, -1):
+reverse_string = reverse_string+strnum[index]
+print("The reversed number =", reverse_string)
