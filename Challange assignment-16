@@ -1,0 +1,11 @@
+l1 = list()
+
+n = int(input ("Enter the number of elements:"))
+for i in range(n):
+    ele = int (input ("Enter the element: "))
+    l1.append(ele)
+
+average = sum(l1) / len(l1)
+print ("Maximum elements of ", l1, "is: ", max(l1) )
+print ("Minimum elements of ", l1, "is: ", min(l1) )
+print ("Average of list", l1, "is: ", average )
